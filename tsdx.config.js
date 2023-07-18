@@ -2,7 +2,6 @@
 const postcss = require('rollup-plugin-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-const typescript = require('@rollup/plugin-typescript');
 
 module.exports = {
   rollup(config, options) {
@@ -27,12 +26,6 @@ module.exports = {
         // extract: false,
       })
     );
-    config.plugins.push(typescript(
-      {
-        tsconfig: "tsconfig.json",
-        outDir: "dist",
-      }
-    ));
     return config;
   },
 };
