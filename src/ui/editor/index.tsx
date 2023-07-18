@@ -1,5 +1,3 @@
-'use client';
-
 import '../../styles/editor.css';
 import React from 'react';
 import { EditorContent, FloatingMenu, JSONContent, useEditor
@@ -164,14 +162,14 @@ function Editor() {
         <button
           ref={plusButtonRef}
           className={classNames(
-            'absolute right-5 top-[-14px] rounded-full border border-prime-400 p-1 text-prime-400 transition-transform duration-300',
+            'absolute right-5 top-[-14px] rounded-full border border-[#a8a29e] p-1 text-[#a8a29e] transition-transform duration-300',
             { 'rotate-45': showFloatMenu }
           )}
           onClick={() => { 
             setShowFloatMenu(!showFloatMenu); 
           }}
         >
-          <BsPlus className="text-prime-400" size={20} />
+          <BsPlus className="text-[#a8a29e]" size={20} />
         </button>
 
         {showFloatMenu && (
@@ -179,30 +177,30 @@ function Editor() {
             <Button
               onClick={handleClick}
             >
-              <BsImage className="text-prime-400" size={20} />
+              <BsImage className="text-[#a8a29e]" size={20} />
             </Button>
             <Button
               onClick={() => editor.chain().focus().toggleCodeBlock().run()}
               className={editor.isActive('codeBlock') ? 'is-active' : ''}
             >
-              <PiBracketsCurly className="text-prime-400" size={20} />
+              <PiBracketsCurly className="text-[#a8a29e]" size={20} />
             </Button>
             <Button
               onClick={() => editor.chain().focus().toggleBulletList().run()}
             >
-              <BsListUl className="text-prime-400" size={20} />
+              <BsListUl className="text-[#a8a29e]" size={20} />
             </Button>
             <Button
               onClick={() => editor.chain().focus().toggleOrderedList().run()}
             >
-              <BsListOl className=" text-prime-400" size={20} />
+              <BsListOl className=" text-[#a8a29e]" size={20} />
             </Button>
             <Button
               onClick={() => {
                 editor.chain().focus().setHorizontalRule().run();
               }}
             >
-              <MdOutlineHorizontalRule className="text-prime-400" size={20} />
+              <MdOutlineHorizontalRule className="text-[#a8a29e]" size={20} />
             </Button>
           </div>
         )}

@@ -6,7 +6,7 @@ type ButtonProps = {
     children?: React.ReactNode;
 };
 const Button = ({ className, onClick, children }: ButtonProps) => {
-  const defaultClassName = 'border-prime-400 rounded-full border p-1';
+  const defaultClassName = 'border-[#a8a29e] rounded-full border p-1';
   const mergedClassName = `${defaultClassName} ${className}`;
 
   return (

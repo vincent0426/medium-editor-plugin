@@ -137,7 +137,7 @@ export const EditorBubbleMenu = ({ editor, showBubbleMenu }: EditorBubbleMenuPro
               key={item.name}
               onClick={item.command}
               className={classNames(
-                item.isActive() ? 'text-[#b5e5a4]' : 'bg-transparent text-white',
+                item.isActive() ? 'text-[#b5e5a4]' : 'bg-transparent text-[#fff]',
                 'rounded-lg px-1 py-1'
               )}
             >
