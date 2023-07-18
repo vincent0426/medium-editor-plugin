@@ -15,6 +15,7 @@ https://github.com/vincent0426/medium-editor-plugin/assets/68840528/41f47e90-108
 
 ```js
 import Editor from 'medium-editor-plugin';
+import "medium-editor-plugin/dist/styles.css"
 
 export default function Home() {
   return (
