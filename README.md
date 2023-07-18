@@ -5,7 +5,8 @@
 This is a medium editor plugin that allows users to edit their content using the [tiptap](https://www.tiptap.dev/) editor. The sample application can be found at [medium-editor-plugin-sample](https://github.com/vincent0426/medium-editor-plugin-sample).
 
 
-https://github.com/vincent0426/medium-editor-plugin/assets/68840528/59e13241-47b9-447c-87fe-1f35b5abc629
+https://github.com/vincent0426/medium-editor-plugin/assets/68840528/41f47e90-1087-45fe-aa11-127728a75cfc
+
 
 
 ## Getting Started
