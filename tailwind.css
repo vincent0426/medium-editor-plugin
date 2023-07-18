@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: rgb(0, 122, 255);
+  --editor-black: rgb(0, 0, 0);
+  --editor-white: rgb(255, 255, 255);
+  --editor-prime-50: rgb(250, 250, 250);
+  --editor-prime-100: rgb(245, 245, 245);
+  --editor-prime-200: rgb(231, 229, 228);
+  --editor-prime-300: rgb(214, 211, 209);
+  --editor-prime-400: rgb(168, 162, 158);
+  --editor-prime-500: rgb(120, 113, 108);
+  --editor-prime-600: rgb(87, 83, 78);
+  --editor-prime-700: rgb(68, 64, 60);
+  --editor-prime-800: rgb(41, 37, 36);
+  --editor-prime-900: rgb(28, 25, 23);
+}
+
+.dark-theme {
+  --editor-black: rgb(255, 255, 255);
+  --editor-white: rgb(25, 25, 25);
+  --editor-prime-50: rgb(35, 35, 34);
+  --editor-prime-100: rgb(41, 37, 36);
+  --editor-prime-200: rgb(66, 69, 71);
+  --editor-prime-300: rgb(112, 118, 123);
+  --editor-prime-400: rgb(160, 167, 173);
+  --editor-prime-500: rgb(193, 199, 204);
+  --editor-prime-600: rgb(212, 217, 221);
+  --editor-prime-700: rgb(229, 232, 235);
+  --editor-prime-800: rgb(232, 234, 235);
+  --editor-prime-900: rgb(240, 240, 241);
+}
+
+body {
+  background-color: var(--editor-white);
+}
